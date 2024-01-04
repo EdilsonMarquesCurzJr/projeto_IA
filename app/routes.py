@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from forms import CadastroForm
+from app.forms import CadastroForm
 import os
 
 app = Flask(__name__)
